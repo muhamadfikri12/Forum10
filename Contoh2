@@ -1,0 +1,44 @@
+# include <iostream>
+using namespace std;
+int main ()
+{
+int a, b, c, x;
+cout << "Angka Tertinggi";
+cout << "\n===============";
+
+cout << "\n \nMasukkan angka pertama:"; cin>> a;
+cout << "Masukkan angka kedua:"; cin>> b;
+cout << "Masukkan angka ketiga:"; cin>> c;
+
+if (a> b)
+ {
+ if (a> c)
+ {cout << "Angka tertinggi adalah: ";
+ cout << a;}
+ else
+ {cout << "Angka tertinggi adalah: ";
+ cout << c;}
+ }
+else if (b> c)
+ {
+ if (b> a)
+ {cout << "Angka tertinggi adalah: ";
+ cout << b;}
+else
+ {cout << "Angka tertinggi adalah: ";
+ cout << a;}
+ }
+else if (c> a)
+{
+ if (c> b)
+ {cout << "Angka tertinggi adalah: ";
+ cout << c;}
+ else
+ {cout << "Angka tertinggi adalah:";
+ cout << b;}
+}
+else
+{cout << "ketiga angka adalah sama.";}
+return 0;
+
+}
