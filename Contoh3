@@ -1,0 +1,17 @@
+# include <iostream>
+using namespace std;
+int main (int argc, char** argv){
+int a;
+cout << "Cara mengoperasikan rice cooker"<<endl;
+cout << "Masukan beras dan air ke dalam rice cooker"<<endl;
+cout << "Masukkan pilihan 0 atau 1";cin>>a;
+
+if (a==1){
+ cout << "Memasak nas";
+}
+ else
+ {cout << "Memanaskan nasi";
+ }
+return 0;
+
+}
